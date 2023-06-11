@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="../css/style.css">
     <div class="up">
                 <nav class="navbar_new">
-                    <a href="index.php">Home</a>
-                    <a href="index.php">About</a>
-                    <a href="index.php">Why</a>
-                    <a href="index.php">Box</a>
-                    <a href="index.php">Contact</a>
+                    <a href="afterLogin.php">Home</a>
+                    <a href="afterLogin.php">About</a>
+                    <a href="afterLogin.php">Why</a>
+                    <a href="afterLogin.php">Box</a>
+                    <a href="afterLogin.php">Contact</a>
                     <a href="orders.php">Orders</a>
                     <a href="stuff.php"><i class="fa fa-user" style="color:#fff;"></i></a>
-                </nav>
+                </nav>  
     </body>
 </html>

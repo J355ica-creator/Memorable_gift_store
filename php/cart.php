@@ -1,18 +1,7 @@
-<?php
+<?php session_start();
 
 include 'config.php';
-session_start();
 $user_id = $_SESSION['user_id'];
-
-if(!isset($user_id)){
-   header('location:login.php');
-};
-
-if(isset($_GET['logout'])){
-   unset($user_id);
-   session_destroy();
-   header('location:login.php');
-};
 
 if(isset($_POST['add_to_cart'])){
 
@@ -70,7 +59,7 @@ if(isset($_GET['delete_all'])){
 
 </head>
 <body>
-<?php include 'header.php'; ?>
+<?php include 'headerAfterLogin.php'; ?>
 
 <?php
 if(isset($message)){
@@ -80,25 +69,7 @@ if(isset($message)){
 }
 ?>
    <div class="container">
-  <div style="padding-top:20px;"> 
-   <div class="user-profile">
-   
-      <?php
-         $select_user = mysqli_query($conn, "SELECT * FROM `user_form` WHERE id = '$user_id'") or die('query failed');
-         if(mysqli_num_rows($select_user) > 0){
-            $fetch_user = mysqli_fetch_assoc($select_user);
-         };
-      ?>
-   
-      <p> username : <span><?php echo $fetch_user['name']; ?></span> </p>
-      <p> email : <span><?php echo $fetch_user['email']; ?></span> </p>
-      <div class="flex">
-         <a href="login.php" class="btn">login</a>
-         <a href="register.php" class="option-btn">register</a>
-         <a href="cart.php?logout=<?php echo $user_id; ?>" onclick="return confirm('are your sure you want to logout?');" class="delete-btn">logout</a>
-      </div>
-      
-   </div>
+  <div style="padding-top:20px;">
       </div>
    <div class="products">
       
@@ -182,6 +153,7 @@ if(isset($message)){
       <div class="cart-btn">  
          <a href="checkout.php" class="btn <?php echo ($grand_total > 1)?'':'disabled'; ?>">proceed to checkout</a>
       </div>
+      
          
    </div>
          

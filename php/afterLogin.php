@@ -21,7 +21,7 @@
         <!-- navigation bar -->
         <div class="up">
             <nav class="navbar">
-                <a href="#home"><a href="index.php">Home</a></a> &emsp; &ensp; &nbsp; &nbsp;
+                <a href="#home">Home</a> &emsp; &ensp; &nbsp; &nbsp;
                 <a href="#about">About</a> &emsp; &ensp; &nbsp; &nbsp;
                 <a href="#why">Why</a> &emsp; &ensp; &nbsp; &nbsp;
                 <a href="#item">Box</a> &emsp; &ensp; &nbsp; &nbsp;
@@ -33,12 +33,12 @@
         <!-- navigation bar end -->
 
         <!-- floating button start -->
-        <!-- <a href="./og.php">
+        <a href="./cart.php">
             <button class="btn-float">
                 <img src="../Picture/trolley.png" alt="cart" width="43px">
                 <span>checkout</span>
             </button>
-        </a> -->
+        </a>
         <!-- floating button end -->
 
         <!--hero section start-->
@@ -130,7 +130,7 @@
                         <h3>Graduation Gift</h3>
                         <p>Make your friends, family, or partner happy by giving them graduation's gift 🎓</p>
                     </figcaption>
-                    <a href="graduate.php">read more</a>
+                    <a href="graduateAfterLogin.php">read more</a>
                 </figure>
                 <figure class="content1">
                     <div class="image"><img src ="../Picture/hbday.png" /></div>
@@ -138,7 +138,7 @@
                         <h3>Birthday Gift</h3>
                         <p>Are you confused about giving gifts to your beloved ones? 😘</p>
                     </figcaption>
-                    <a href="hbday.php">read more</a>
+                    <a href="hbdayAfterLogin.php">read more</a>
                 </figure>
                 <figure class="content1">
                     <div class="image"><img src ="../Picture/valday.png" /></div>
@@ -146,7 +146,7 @@
                         <h3>Valentine Gift</h3>
                         <p>Surprise for loved ones by giving sweet gifts like chocolates ❤️</p>
                     </figcaption>
-                    <a href="valday.php">read more</a>
+                    <a href="valdayAfterLogin.php">read more</a>
                 </figure>
             </div>
         </section>

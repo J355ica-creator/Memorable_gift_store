@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+TC&family=PT+Serif&family=Roboto:wght@300&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     </head>
     <link rel="stylesheet" type="text/css" href="../css/image-grid.css">
@@ -32,11 +33,12 @@
                     <a href="index.php">Box</a>
                     <a href="index.php">Contact</a>
                     <a href="orders.php">Orders</a>
+                    <a href="stuff.php"><i class="fa fa-user" style="color:#fff;"></i></a>
                 </nav>
             <!-- navigation bar end -->
 
             <!-- floating button start -->
-            <a href="./register.php">
+            <a href="./og.php">
             <button class="btn-float">
                 <img src="../Picture/trolley.png" alt="cart" width="43px">
                 <span>checkout</span>
@@ -122,6 +124,7 @@
                                  <a href="index.php">Box</a>
                                  <a href="index.php">contact</a>
                                  <a href="orders.php">Orders</a>
+                                 <a href="stuff.php"><i class="fa fa-user" style="color:#fff;"></i></a>
                              </div>
                              <div class="credit">
                                  <p>Created by <a href="">keltmh</a> | &copy; 2023</p>

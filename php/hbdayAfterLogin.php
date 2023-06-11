@@ -16,7 +16,7 @@
     <body>
         <!--menu website-->
         <div>
-            <a href="graduate.php"></a>
+            <a href="hbday.php"></a>
         </div>
         <!--loading-->
         <div class="loader">
@@ -47,25 +47,38 @@
             <!-- floating button end -->
 
             <!--banner start-->
-            <section class="banner">
+            <section class="banner-2">
                 <h2>Memorable Gift Store</h2>
             </section>
             <!--banner end-->
             
             <!--isi start-->
             <section class="content-area">
-                <h2>Graduate Gift</h2>
-                <p>Yes! This is the most awaited day, tidak terasa hari yang ditunggu sudah tiba dimana seseorang akan menyelesaikan studinya dan mendapatkan gelar.
-                    gradution day yang merupakan upacara peneguhan atau pelantikan bagi seseorang yang telah menempuh pendidikan atau kelulusan mahasiswa.
-                    Memorable Gift Store menyiapkan paket hampers khusus untuk kalian berikan kepada teman, keluarga ataupun partner sebagai ucapan selamat atas kerja keras mereka selama ini. 
-                    <br><br>Gift box Graduation day berisi: 
-                    <br>1. Boneka wisuda (cantumkan warna rekomendasi cokelat dan cream)
+                <h2>Happy Birthday Gift</h2>
+                <p>Ciee yang mau kasik hadiah ulang tahun ke pacarnya. Eitss jangan iri bagi yang jomblo ya.... Kalian juga bisa kok belikan kado untuk teman dekat kalian.<br>
+                    <br>Pagi-pagi makan kebab
+                    <br>Sambil nonton film kartun
+                    <br>Hatiku turut bahagia tanpa sebab
+                    <br>Rupanya kamu berulang tahun
+                    <div class="cw">
+                    <h3>Birthday Gift For Woman</h3>
+                    <p>Paket pertama adalah Birthday Gift For Woman yang bisa kalian berikan ke teman cewek yang berisi:
+                    <br>1. Boneka (Pilihan warna: merah, cream, biru, pink, dan putih)
                     <br>2. Syal multifungsi
                     <br>3. Notebook mini
                     <br>4. Buket bunga mini
-                    <br>5. Bubble candle 
+                    <br>5. Bubble candle
                     <br>6. FREE greeting card atau kartu ucapan yang bisa dicustom sesuai dengan keinginan
-                    <br>Dengan harga Rp 45.000,00. Kalian mampu membeli box berisi hadiah perayaan kelulusan 💝</p>
+                    <br>Dengan harga Rp 38.000,00. Kalian mampu membeli box berisi hadiah perayaan ultah cewek 💝</p>
+                    <h3>Birthday Gift For Man</h3>
+                    <p>Paket kedua adalah Birthday Gift For Man yang bisa kalian berikan ke teman cowok yang berisi:
+                    <br>1. Notebook mini 
+                    <br>2. Dasi Pria
+                    <br>3. Gelas wine mini
+                    <br>4. Buket bunga mini
+                    <br>5. Bubble candle
+                    <br>6. FREE greeting card atau kartu ucapan yang bisa dicustom sesuai dengan keinginan
+                    <br>Dengan harga Rp 45.000,00. Kalian mampu membeli box berisi hadiah perayaan ultah cowok 💝</p>
 
                     <!--gallery start-->
                     <div class="gallery">
@@ -76,21 +89,22 @@
                             <img src="../Picture/book.png" alt="">
                         </div>
                         <div class="bs">
-                            <img src="../Picture/box-gr.png" alt="">
+                            <img src="../Picture/lvbox.png" alt="">
                         </div>
                         <div class="bs">
-                            <img src="../Picture/gr.png" alt="">
+                            <img src="../Picture/lvboy.png" alt="">
                         </div>
                         <div>
                             <img src="../Picture/flower.png" alt="">
                         </div>
                         <div>
-                            <img src="../Picture/bear.png" alt="">
+                            <img src="../Picture/doll.png" alt="">
                         </div>
                     <!--gallery end-->
             </section>
             <!--isi section end-->
             
+
             <!--footer start-->
             <section>
                 <footer class="footer">
@@ -104,11 +118,11 @@
                                  <a href="https://www.facebook.com/people/Memorable-Gift-Store/100084152802214/" target="_blank"><i class="fa facebook"><ion-icon name="logo-facebook"></ion-icon></i></a>
                              </div>
                              <div class="links">
-                                 <a href="index.php">Home</a>
-                                 <a href="index.php">About</a>
-                                 <a href="index.php">Why</a>
-                                 <a href="index.php">Box</a>
-                                 <a href="index.php">contact</a>
+                                 <a href="afterLogin.php">Home</a>
+                                 <a href="afterLogin.php">About</a>
+                                 <a href="afterLogin.php">Why</a>
+                                 <a href="afterLogin.php">Box</a>
+                                 <a href="afterLogin.php">contact</a>
                                  <a href="orders.php">Orders</a>
                                  <a href="stuff.php"><i class="fa fa-user" style="color:#fff;"></i></a>
                              </div>

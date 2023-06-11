@@ -16,7 +16,7 @@
     <body>
         <!--menu website-->
         <div>
-            <a href="graduate.php"></a>
+            <a href="valday.php"></a>
         </div>
         <!--loading-->
         <div class="loader">
@@ -27,11 +27,11 @@
         <!-- navigation bar -->
             <div class="up">
                 <nav class="navbar">
-                    <a href="index.php">Home</a>
-                    <a href="index.php">About</a>
-                    <a href="index.php">Why</a>
-                    <a href="index.php">Box</a>
-                    <a href="index.php">Contact</a>
+                    <a href="afterLogin.php">Home</a>
+                    <a href="afterLogin.php">About</a>
+                    <a href="afterLogin.php">Why</a>
+                    <a href="afterLogin.php">Box</a>
+                    <a href="afterLogin.php">Contact</a>
                     <a href="orders.php">Orders</a>
                     <a href="stuff.php"><i class="fa fa-user" style="color:#fff;"></i></a>
                 </nav>
@@ -47,47 +47,47 @@
             <!-- floating button end -->
 
             <!--banner start-->
-            <section class="banner">
+            <section class="banner-3">
                 <h2>Memorable Gift Store</h2>
             </section>
             <!--banner end-->
             
             <!--isi start-->
             <section class="content-area">
-                <h2>Graduate Gift</h2>
-                <p>Yes! This is the most awaited day, tidak terasa hari yang ditunggu sudah tiba dimana seseorang akan menyelesaikan studinya dan mendapatkan gelar.
-                    gradution day yang merupakan upacara peneguhan atau pelantikan bagi seseorang yang telah menempuh pendidikan atau kelulusan mahasiswa.
-                    Memorable Gift Store menyiapkan paket hampers khusus untuk kalian berikan kepada teman, keluarga ataupun partner sebagai ucapan selamat atas kerja keras mereka selama ini. 
-                    <br><br>Gift box Graduation day berisi: 
-                    <br>1. Boneka wisuda (cantumkan warna rekomendasi cokelat dan cream)
-                    <br>2. Syal multifungsi
-                    <br>3. Notebook mini
-                    <br>4. Buket bunga mini
-                    <br>5. Bubble candle 
-                    <br>6. FREE greeting card atau kartu ucapan yang bisa dicustom sesuai dengan keinginan
-                    <br>Dengan harga Rp 45.000,00. Kalian mampu membeli box berisi hadiah perayaan kelulusan 💝</p>
-
-                    <!--gallery start-->
-                    <div class="gallery">
-                        <div>
-                            <img src="../Picture/cotton.png" alt="">
-                        </div>
-                        <div>
-                            <img src="../Picture/book.png" alt="">
-                        </div>
-                        <div class="bs">
-                            <img src="../Picture/box-gr.png" alt="">
-                        </div>
-                        <div class="bs">
-                            <img src="../Picture/gr.png" alt="">
-                        </div>
-                        <div>
-                            <img src="../Picture/flower.png" alt="">
-                        </div>
-                        <div>
-                            <img src="../Picture/bear.png" alt="">
-                        </div>
-                    <!--gallery end-->
+                <h2>Valentine Gift</h2>
+                    <p>Memorable Gift Store telah menyiapkan beberapa paket hampers khusus untuk kalian berikan pada orang tersayang pada moment Valentine!  
+                    Setiap tahun Memorable Gift Store selalu mencari sesuatu yang baru untuk menyambut moment besar, salah satunya adalah Valentine day yang diperingati setiap 14 Februari.
+                    <br><br>Gift box Valentine day berisi:
+                    <br>1. Cokelat batang
+                    <br>2. Boneka
+                    <br>3. Syal multifungsi
+                    <br>4. Notebook mini
+                    <br>5. Buket bunga mini
+                    <br>6. Bubble candle
+                    <br>7. FREE greeting card atau kartu ucapan yang bisa dicustom sesuai dengan keinginan
+                    <br>Dengan harga Rp 58.000,00. Kalian mampu membeli box berisi hadiah perayaan kasih sayang 💝</p>
+                
+                <!--gallery start-->
+                <div class="gallery">
+                    <div>
+                        <img src="../Picture/book.png" alt="">
+                    </div>
+                    <div>
+                        <img src="../Picture/doll.png" alt="">
+                    </div>
+                    <div class="bs">
+                        <img src="../Picture/box.png" alt="">
+                    </div>
+                    <div class="bs">
+                        <img src="../Picture/kotak.jpeg" alt="">
+                    </div>
+                    <div>
+                        <img src="../Picture/flower.png" alt="">
+                    </div>
+                    <div>
+                        <img src="../Picture/cotton.png" alt="">
+                    </div>
+                <!--gallery end-->
             </section>
             <!--isi section end-->
             
